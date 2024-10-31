@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.first-block {
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    background: url("./images/earth.jpg");
+    background-size: cover;
+    width: 1360px;
+    height: 822px;
+    color: white;
+}
+
+.logo-t {
+    
+    text-shadow: 1px 0 1px black;
+    margin: 184px auto 0;
+    font-size: 50px;
+}
+
+.logo-btn {
+    width: 272px;
+    height: 72px;
+    background-color: #7B61FF;
+    padding: 8px 7px;
+    font-size:18px;
+    margin-top: 32px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    border: 0;
+    border-radius: 6px;
+
+    
+}
+
+.second-block {
+    width: 1360px;
+    height: 592px;
+    background: white;
+}
+
+.second-title {
+    text-align: left;
+    margin: 120px 0 64px 0;
+}
+
+.second-contents {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.second-img {
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.second-h4 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.second-p {
+    font-weight: 400;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.third-block {
+    width: 1360px;
+    height: 652px;
+    background: white;
+}
+
+.third-title {
+    text-align: left;
+    margin: 120px 0 64px 0;
+}
+
+.third-contents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-img {
+    width: 316px;
+    height: 380px;
+    border-radius: 20px;
+}
+
+.third-subtitle {
+    margin-left: 32px;
+    font-weight: 700;
+    padding: 4px 0;
+}
+
+.third-p {
+    margin-left: 32px;
+    font-weight: 400;
+    padding: 4px 20px 4px 0;
+    
+}
+
+.fourth-block {
+    display: flex;
+    justify-content: center;
+    width: 1360px;
+    height: 608px;
+    text-align: left;
+}
+
+.aboutus {
+    width: 548px;
+    height:488px;
+    border-radius: 20px;
+}
+
+.fourth-title {
+    margin: 88px 32px 32px 0;
+}
+
+.fourth-p {
+    margin-right: 32px;
+}
+
+.fourth-btn {
+    width: 133px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 32px;
+    background-color: #F6F4FF;
+    border: none;
+    border-radius: 12px;
+    color: #7B61FF;
+    padding: 6px 10px;
+}
